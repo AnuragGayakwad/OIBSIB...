@@ -12,7 +12,6 @@ public class NumberGuessingGameConsole {
         final int MAX_SCORE = 100;
         int attempts = 0;
         int score = 0;
-
         Random rand = new Random();
         int numberToGuess = rand.nextInt(200) + 1;
 
